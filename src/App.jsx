@@ -44,7 +44,6 @@ export default function App() {
 
   return (
     <>
-      <h1>Posts Data</h1>
       <Table dataSource={posts} columns={columns} />;
     </>
   );
